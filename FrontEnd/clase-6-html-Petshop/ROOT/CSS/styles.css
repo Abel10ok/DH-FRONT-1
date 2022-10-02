@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+/* HEADER DE MI PAGINA */
+
+header .superior{
+    background-color: #222222;
+    color:#F3F3F3;
+    height: 30px;
+}
+
+header .superior div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -20px;
+}
+
+header .superior div p{
+    margin-right: 10px;
+}
+
+
+.texto_header_superior{
+    margin-left: 90px;
+    height: 5px;
+}
+
+.principal{
+    background-color:#F0A83E ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+}
+
+section .logo_principal{
+    margin-right: 750px;
+}
+
+section .logo_principal img{
+    height: 70px;
+    width: auto;
+}
+
+section nav .links{
+    padding: 0%;
+    margin-right: 10px;
+    list-style: none;
+}
+
+section nav .links li{
+    display: inline-block;
+    padding: 0 10px;
+}
+section nav .links li a{
+    text-decoration: none;
+}
+
+/* MAIN DE MI PAGINA */
+
+.section-main{
+    position: absolute;
+}
+
+.section-main img{
+    width: 1349px;
+}
+
+h1{
+    background-color: white;
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+} 
+
+.section-main div{
+    position: relative;
+    bottom:  300px;
+    left: 400px;
+    text-align: center;
+}
+
+div p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+div button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F0A83E;
+    border: none;
+}
+
+/* VENTA DE MI PAGINA  */
+
+.productos{
+    background-color: white;
+    margin-top: 542px;
+}
+
+.productos .pata-grande {
+    margin-top: 15px;
+    height: 100px;
+    width: auto;
+}
+
+section .productos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+section  .destacados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #b83c3c;
+}
+
+
+section ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+section  ul  li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.venta ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+} 
+
+.img-productos{
+    display: flex;
+    justify-content: center;
+}
+
+.img-productos div{
+    margin-right: 5px;
+}
+
+.img-productos p{
+    display: flex;
+    justify-content: center;
+}
+
+.precio{
+    color: #F0A83E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+
+
+
+
+/* FOOTER */
+
+
+

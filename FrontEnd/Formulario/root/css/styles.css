@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+}
+
+header .texto{
+    background-color: #1CD1B0;
+}
+
+.texto p{
+    margin-left: 10px;
+}
+
+header .titulo-header img{
+    height: 80px;
+    width: 100px;
+}
+
+header .titulo-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #00669F;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+header .nav{
+    background: #001D2D;
+}
+
+header .nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav ul li{
+    margin: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.formulario{
+    height: 43vw;
+    width: 50vw;
+    border-radius: 40px;
+    background: #00669F;
+}
+
+.formulario .texto-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    gap: 10px;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+    gap: 20px;
+
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+form label{
+    color: #ffffff;
+}
+
+.form-1 input{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #000000 1px;
+}
+
+.form-1 textarea{
+    background-color: #ffffff;
+    height: 188px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.form-2 select{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+}
+
+.form-2 input{
+    padding: 10px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+form .checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form .radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form  button{
+    padding: 15px 100px;
+    background: #1CD1B0;
+    border: #1CD1B0 solid 1px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+
+footer{
+    background: #00669F;
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div h3{
+    color: #ffffff;
+}
+
+
+button:hover{
+    -webkit-box-shadow: 11px 11px 7px -4px rgb(1, 13, 17);
+    -moz-box-shadow: 11px 11px 7px -4px rgb(1, 19, 26);
+    box-shadow: 11px 11px 7px -4px rgb(1, 19, 26);
+    border: #000000 solid 1px;
+}
+
